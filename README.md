@@ -20,9 +20,11 @@ chromedriver 100.0.4896.60 (需要适配本电脑chrome版本) [下载链接](ht
 
 #### 项目说明
 
-    学习Python爬虫，必不可少就是建立自己的IP代理池，项目就是为了建立自己IP代理池进行设计，爬取免费代理IP提供商的网站，建造自己的IP代理池。
-    目前爬取的网站有：[快代理](https://www.kuaidaili.com/free/)，[89免费代理](https://www.89ip.cn/)，[高可用全球免费代理ip库](https://ip.jiangxianli.com/)（当然，如果需要稳定性还是购买他们的收费产品）
-    通过建造自己的IP代理池，可以让我们学习到基础的爬虫知识：requests、selement、pands、sqlite等。
+学习Python爬虫，必不可少就是建立自己的IP代理池，项目就是为了建立自己IP代理池进行设计，爬取免费代理IP提供商的网站，建造自己的IP代理池。
+
+目前爬取的网站：[快代理](https://www.kuaidaili.com/free/)，[89免费代理](https://www.89ip.cn/)，[高可用全球免费代理ip库](https://ip.jiangxianli.com/)（当然，如果需要稳定性还是购买他们的收费产品）
+
+通过建造自己的IP代理池，可以让我们学习到基础的爬虫知识：requests、selement、pands、sqlite等。
 
 #### 抓取切勿干非法之事，开源仅供参考
 
