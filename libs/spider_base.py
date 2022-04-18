@@ -6,10 +6,13 @@
 @Author  :  Mz100
 @Desc    :  爬虫主程序，使用 requests
 """
+
 import requests
 import sqlite3
 import pandas as pd
 from libs.sqlite import Sqlite
+from abc import abstractmethod
+
 
 class SpiderBase:
 
@@ -18,9 +21,9 @@ class SpiderBase:
         self.source = 0
 
     # 爬取数据
+    @abstractmethod
     def spider(self):
-
-        return ''
+        pass
 
     # 管道清理
     def pipeline(self, html):
@@ -73,7 +76,7 @@ class SpiderBase:
     def is_useful(self, ip, port):
 
         url = 'http://icanhazip.com/'
-        proxy = str(ip)+":"+str(port)
+        proxy = str(ip) + ":" + str(port)
         proxies = {
             'http': 'http://' + proxy + '/',
             'https': 'https://' + proxy + '/',
@@ -92,7 +95,11 @@ class SpiderBase:
 
     # 主程序
     def run(self):
+        # 爬取数据
         html = self.spider()
+        # 整理数据
         data = self.pipeline(html)
+        # 检查数据
         data = self.check_useful(data)
+        # 保存数据
         self.save(data)

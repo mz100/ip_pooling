@@ -17,6 +17,7 @@ class Kuaidaili(Spider):
         self.base_url = "https://www.kuaidaili.com/free/"
         self.source = 2
 
+    # 数据整理
     def pipeline(self, html):
 
         tables = pd.read_html(html)
