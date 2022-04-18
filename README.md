@@ -13,7 +13,7 @@ Python3.9 Spider爬虫IP代理池的建池程序，通过IP代理池的建池程
 - chromedriver 100.0.4896.60 (需要适配本电脑chrome版本) [下载链接](https://registry.npmmirror.com/binary.html?path=chromedriver/)
 
 
-#### 安装运行教
+#### 安装应用
 
 1.  git clone git@gitee.com:mz100/ip_poolding.git
 
