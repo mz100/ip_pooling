@@ -4,7 +4,7 @@
 @File    :  main.py
 @Time    :  2022/4/16 16:58
 @Author  :  Mz100
-@Desc    :  IP代理池主程序
+@Desc    :  IP代理池建池主程序
 """
 
 import os
