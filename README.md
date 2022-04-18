@@ -6,9 +6,9 @@ Python3.9 Spider爬虫IP代理池的建池程序，通过IP代理池的建池程
 
 #### 软件架构
 
-Python 3.9
-selenium 4.1.3
-chromedriver 100.0.4896.60 (需要适配本电脑chrome版本) [下载链接](https://registry.npmmirror.com/binary.html?path=chromedriver/)
+- Python 3.9
+- selenium 4.1.3
+- chromedriver 100.0.4896.60 (需要适配本电脑chrome版本) [下载链接](https://registry.npmmirror.com/binary.html?path=chromedriver/)
 
 
 #### 安装运行教
